@@ -1,0 +1,47 @@
+# OS固有ファイル
+.DS_Store
+Thumbs.db
+
+# ログファイル
+*.log
+
+# 一時ファイル
+*.tmp
+*.swp
+
+# バックアップファイル
+*~
+*.bak
+
+# IDE/エディタ
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ビルド出力
+/dist/
+/build/
+out/
+bin/
+obj/
+
+# 環境変数ファイル
+.env
+.env.*
+
+# npm/yarn
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# その他
+coverage/
